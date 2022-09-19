@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #303030;
+  color: #FFFFFF;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  height: 100vh;
+  background: #14b1e0;
+  place-content: center;
+}
+
+.logo{
+  position: fixed;
+  top: 50px;
+  width: 400px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+main{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:25%;
+  padding: 25px;
+  text-align: center;
+}
+
+.MuiButton-containedPrimary{
+  background-color: #211e45 !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.MuiButton-label{
+  font-family: 'Bebas Neue', sans-serif !important;
+  letter-spacing: 3px;
+}
+main p{
+  color: #211e45 !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  font-family: 'Bebas Neue', sans-serif !important;
+  letter-spacing: 2px !important;
+}
+.MuiButtonBase-root{
+  background-color: #211e45 !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white !important;
+}
+
+.rightside{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 40vw;
+}
+.leftside{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 40vw;
+}
